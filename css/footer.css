@@ -1,0 +1,47 @@
+.footer{
+    padding-top: 50px;
+    background-color: #1D2A4D;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text{
+    color: white;
+   
+}
+
+.footer__item{
+
+    padding-bottom: 10px;
+}
+
+.footer__item:first-child{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.button-footer{
+    background: #1D2A4D; 
+    border-radius: 20px; 
+    display: flex; 
+    padding: 2px 13px; 
+    align-items: center; 
+    justify-content: center; 
+    border: white 1px solid;
+}
+
+.footer__whatsapp-left{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+
+.footer__logo{
+    margin-top: -100px;
+    width: 400px;
+}

@@ -5,6 +5,8 @@
 @import './about.css';
 @import './button.css';
 @import './services.css';
+@import './partners.css';
+@import './footer.css';
 
 
 * {
@@ -19,7 +21,6 @@ body {
 a{
   text-decoration: none;
 }
-
 
 .container{
   max-width: 1366px;

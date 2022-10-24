@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');  
+
+@import './slider.css';
+@import './header.css';
+@import './about.css';
+@import './button.css';
+@import './services.css';
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.container{
+  max-width: 1366px;
+  margin: 0 auto;
+}

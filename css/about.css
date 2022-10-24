@@ -1,0 +1,30 @@
+.about__company{
+    margin-bottom: 50px;
+}
+
+.about_company-content{
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_img-wrapper{
+ 
+}
+
+.about_company-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about_company-info{
+    max-width: 50%;
+}
+
+.About__subtitle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+

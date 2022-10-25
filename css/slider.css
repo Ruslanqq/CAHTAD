@@ -26,7 +26,7 @@
   .slide .content {
     position: absolute;
     bottom: 5%;
-    left: -600px;
+    right: -600px;
     background: rgba(255, 255, 255, 0.6);
     padding: 10px 25px;
     width: 40%;
@@ -34,13 +34,26 @@
     font-size: 14px;
     border-radius: 5px;
     opacity: 0;
-    transition: all 0.7s ease-in-out 0.3s;
+    transition: all 1s ease-in-out 0.3s;
   }
   
+  .slider__text{
+    color: white;
+  }
+  .Our__mission-title{
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .Our__mission-text{
+    font-weight: bold;
+    font-size: medium;
+  }
+
   .slide.current .content {
     opacity: 1;
     transform: translateX(0%);
-    left: 0;
+    right: 0;
   }
   
   .content h1 {
@@ -87,20 +100,23 @@
   ==================================================*/
   
   .slide:first-child {
-    background: url("../images/new-img/Live\ style/image_2022-10-14_19-12-35.png") no-repeat center center/cover;
+    background: url("../images/Main/1.jpg") no-repeat center center/cover;
   }
   .slide:nth-child(2) {
-    background: url("../images/vacay.jpeg") no-repeat center center/cover;
+    background: url("../images/Main/2.jpg") no-repeat center center/cover;
   }
   .slide:nth-child(3) {
-    background: url("../images/C.A.H.T.A.D_Hero/seb-mooze-IzgsIKFghrw-unsplash.jpg") no-repeat center center/cover;
+    background: url("../images/Main/3.png") no-repeat center center/cover;
   }
   .slide:nth-child(4) {
     background: url("../images/C.A.H.T.A.D_Hero/fckdRoad2.jpg") no-repeat center center/cover;
   }
+  .slide:nth-child(5) {
+    background: url("../images/Main/4.png") no-repeat center center/cover;
+  }
 
   .slide:last-child {
-    background: url("../images/urta__winter.jpg") no-repeat center center/cover;
+    background: url("../images/Main/5.png") no-repeat center center/cover;
   }
   
   /* ================================================= 

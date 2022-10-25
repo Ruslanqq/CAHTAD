@@ -16,6 +16,7 @@
 }
 body {
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 a{
@@ -27,3 +28,63 @@ a{
   margin: 0 auto;
 }
 
+.content h1{
+  color: red;
+}
+
+
+.legend{
+  border:500px solid transparent;
+  border-left:800px solid rgba(52, 73, 94, .7);
+  border-bottom:0;
+  position:absolute;
+  bottom:0;
+  left: 0;
+}
+
+.slider-left-text{
+  position: absolute;
+  max-width: 35%;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+}
+
+.slider-left-text h1{
+  font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 39px;
+padding-bottom: 30px;
+  color: red;
+}
+.slider-left-text p{
+  font-size: 14px;
+}
+
+
+.service_img-wrapper:hover{
+  background: gray;
+}
+
+.about__title{
+  color: #1D2A4D;
+}
+
+.About__subtitle{
+  color: red;
+  width: 40%;
+  border-bottom-width: 4px ;
+}
+p{
+  color: #1D2A4D;
+}
+
+.Service__title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1D2A4D;
+	font-weight: bold;
+}

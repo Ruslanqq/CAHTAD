@@ -3,15 +3,32 @@
 }
 
 .about_company-content{
-    margin-top: 100px;
+    margin-top: 20px;
     display: flex;
     gap: 100px;
     align-items: center;
     justify-content: space-between;
 }
 
+.about__title{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 39px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .About__subtitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+  }
+
 .about_img-wrapper{
- 
+    max-height: 100%;
 }
 
 .about_company-img{
@@ -19,12 +36,15 @@
     max-height: 100%;
 }
 
+.about_company-content{
+    margin-top: 50px;
+}
+
 .about_company-info{
     max-width: 50%;
 }
 
 .About__subtitle{
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 

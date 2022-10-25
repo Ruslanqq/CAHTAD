@@ -19,6 +19,9 @@
     margin: 0 auto;
     margin-top: 50px;
   }
+  .about__text{
+    font-weight: bold;
+  }
   
   .About__subtitle{
     font-style: normal;

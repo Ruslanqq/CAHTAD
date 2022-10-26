@@ -1,0 +1,44 @@
+.short-ben-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.short-ben-img{
+    margin: 0 auto;
+    max-width: 60px;
+    max-height: 60px;
+    padding-bottom: 20px;
+}
+.short-ben-img1{
+    margin: 0 auto;
+    max-width: 70px;
+    min-height: 80px;
+    padding-bottom: 10px;
+}
+
+.left-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.right-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.short__ben-content{
+    padding: 20px 40px;
+    border-radius: 100%;
+    background: #eff5f9;
+}
+
+.short-ben__text{
+    font-weight: bold;
+    font-size: 10px;
+}

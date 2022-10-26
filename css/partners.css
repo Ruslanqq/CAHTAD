@@ -10,6 +10,16 @@
     max-width: 180px;
 }
 
+.partners__title{
+    font-style: normal;
+    padding-bottom: 30px;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1D2A4D;
+	font-weight: normal;
+}
+
 .button__text{
     font-size: 14px; 
     padding-top: 10px;
@@ -35,6 +45,13 @@
 }
 
 @media (max-width: 1024px){
+
+    .partners_button{
+    
+        margin-bottom: 50px;
+        width: 280px;    
+    }
+    
     .partners-img{
         width: 200px;
     }
@@ -42,6 +59,8 @@
 }
 
 @media (max-width: 768px){
+
+
     .partners-img{
         width: 135px;
     }
@@ -49,6 +68,7 @@
 }
 
 @media (max-width: 425px){
+   
    .partners_first-string{
     flex-direction: column;
    }

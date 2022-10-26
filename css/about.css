@@ -1,8 +1,8 @@
-.about__company{
+.about__company {
     margin-bottom: 50px;
 }
 
-.about_company-content{
+.about_company-content {
     margin-top: 20px;
     display: flex;
     gap: 100px;
@@ -10,7 +10,30 @@
     justify-content: space-between;
 }
 
-.about__title{
+.company-profile-info{
+
+}
+
+.company__profile-content {
+   
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+.company-profile-info{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    gap: 50px;
+}
+.company-profile-text{
+    max-width: 33.33%;
+    padding-bottom: 50px;
+}
+
+.about__title {
     text-align: center;
     font-style: normal;
     font-weight: bold;
@@ -18,59 +41,79 @@
     line-height: 39px;
     margin: 0 auto;
     margin-top: 50px;
-  }
-  .about__text{
+    
+}
+.about__title1{
+    max-width: 40%;
+    border-bottom-width: 4px ;
+    margin-bottom: 80px;
+}
+.about__text {
     font-weight: bold;
-  }
-  
-  .About__subtitle{
+    max-width: 80%;
+    text-align: justify;
+}
+
+
+.About__subtitle {
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 39px;
-  }
-
-.about_img-wrapper{
-    max-height: 100%;
 }
 
-.about_company-img{
+.about_img-wrapper {
+    max-height: 100%;
+}
+.about_img-wrapper1 {
+    display: flex;
+    gap: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.company__profile-img{
+    margin: 0 auto;
+    max-width: 33.33%;
+}
+
+.about_company-img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.about_company-content{
+.country__img{
+    max-width: 120px;
+}
+
+.about_company-content {
     margin-top: 50px;
 }
 
-.about_company-info{
-    max-width: 50%;
+.about_company-info {
+    max-width: 80%;
 }
 
-.About__subtitle{
+.About__subtitle {
     margin-bottom: 50px;
 }
 
-@media (max-width: 1366px){
-    .about_company-content{
-         flex-direction: column;
+@media (max-width: 1366px) {
+    .about_company-content {
+        flex-direction: column;
     }
 
-    .about_company-img{
+    .about_company-img {
         max-width: 600px;
         max-height: 300px;
     }
 
-    .about_company-info{
+    .about_company-info {
         max-width: 90%;
     }
-
-    
-    
 }
 
-@media (max-width: 425px){
-    .about_company-img{
+@media (max-width: 425px) {
+    .about_company-img {
         max-width: 400px;
         max-height: 200px;
     }

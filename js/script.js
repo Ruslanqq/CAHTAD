@@ -4,7 +4,7 @@ const nextBtn = document.querySelector(".next-btn");
 const prevBtn = document.querySelector(".prev-btn");
 
 const auto = true;
-const intervalTime = 5000;
+const intervalTime = 8000;
 let slidesInterval;
 
 // Button click listener

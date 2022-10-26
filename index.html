@@ -15,44 +15,44 @@
       <div class="container">
         <div class="brand">
           <a href="#!"><img class="header__logo" src="./images/Logo/norm-logo.png" alt=""></a>
-          <p style="font-size: 16px;">OPERATE 24/7 AROUND THE CLOCK ALL YEAR LONG</p>
+          <p class="logo-right-text" style="font-size: 16px;">OPERATE 24/7 AROUND THE CLOCK ALL YEAR LONG</p>
         </div>
         <nav>
           <div class="nav-mobile">
             <a id="nav-toggle" href="#!"><span></span></a>
           </div>
           <ul class="nav-list">
-            <li>
-              <a href="#!">Home</a>
+            <li class="nav__item">
+              <a class="nav__link" href="./about.html">Home</a>
             </li>
-            <li>
-              <a href="#!">About</a>
+            <li class="nav__item">
+              <a class="nav__link" href="./about.html">About</a>
             </li>
-            <li>
-              <a href="#!">Services</a>
+            <li class="nav__item">
+              <a class="nav__link" href="#!">Services</a>
               <ul class="nav-dropdown">
-                <li>
-                  <a href="#!">Medical Assistance</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Medical Assistance</a>
                 </li>
-                <li>
-                  <a href="#!">Medical Evacuation Repatriationall</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Medical Evacuation Repatriationall</a>
                 </li>
-                <li>
-                  <a href="#!">Technical Assistance</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Technical Assistance</a>
                 </li>
-                <li>
-                  <a href="#!">Medical Tourism</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">Medical Tourism</a>
                 </li>
-                <li>
-                  <a href="#!">LifeStyle & Travel Assistance</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">LifeStyle & Travel Assistance</a>
                 </li>
-                <li>
-                  <a href="#!">C.A.H.T.A. <span style="color: red;">D</span> -Dror Security</a>
+                <li class="nav__item">
+                  <a class="nav__link" href="#!">C.A.H.T.A. <span style="color: red;">D</span> -Dror Security</a>
                 </li>
               </ul>
             </li>
-            <li>
-              <a href="#!">Contact</a>
+            <li class="nav__item">
+              <a class="nav__link" href="#!">Contact</a>
             </li>
           </ul>
         </nav>
@@ -161,8 +161,8 @@
       <button class="next-btn">&rightarrow;</button>
     </div>
 
-    <section class="about__company">
 
+    <section class="about__company">
       <div class="container">
         <h2 class="about__title">
           Welcome to <br> Central Asia Health Travel Assistance <span style="color: red;">D</span>ispatch
@@ -197,13 +197,40 @@
       </div>
     </section>
 
-
+    <section class="short__benefits">
+      <div class="container">
+        <div class="short-ben-wrapper">
+          <div class="left-wrapper">
+            <div class="short__ben-content">
+              <img src="./images/short-ben-images/airplane.png" alt="" class="short-ben-img">
+              <p class="short-ben__text">Qualified Doctors</p>
+            </div>
+            <div class="short__ben-content">
+              <img src="./images/short-ben-images/hurt.png" alt="" class="short-ben-img">
+              <p class="short-ben__text">Timely effective <br>
+                service delivery</p>
+            </div>
+            <div class="short__ben-content">
+              <img src="./images/short-ben-images/checklist.png" alt="" class="short-ben-img">
+              <p class="short-ben__text">Cost Containment <br>
+                & Direct Billing</p>
+             
+            </div>
+            <div class="short__ben-content">
+              <img src="./images/short-ben-images/zont.png" alt="" class="short-ben-img short-ben-img1">
+              <p class="short-ben__text">Quality <br>
+                Control</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Первая картинка -->
 
     <section class="Services">
       <div class="container">
-        <h2 class="Service__title text-center">Our Services</h2>
+        <h2 class="Service__title text-center">C.A.H.T.A.<span style="color: red;">D</span> Services</h2>
         <div class="services_wrapper">
           <div class="hover-text-one">
             <figure class="effect-text-four">
@@ -224,7 +251,7 @@
                 <img class="service__image" src="/images/Our__services/medical_evucation.jpg" alt="" />
               </div>
               <figcaption>
-                <h3>MEDICAL EVACUATION</h3>
+                <h3>MEDICAL Evacuation & Repatriation</h3>
                 <p>WE ARE OFFERING 24/7 AROUND-THE-CLOCK GROUND/AIR AMBULANCE TRANSPORTATION USING A WIDE RANGE OF LICENSED GROUND AMBULANCE AND AIR AMBULANCE AIRCRAFTS</p>
               </figcaption>
             </figure>
@@ -260,7 +287,7 @@
               </div>
               <figcaption>
                 <h3>MEDICAL TOURISM</h3>
-                <p>C.A.H.T.A.D APPROACHES ITS CLIENTS WITH SPECIAL ATTENTION AND GREAT RESPECT - THE COMPANY HAS HIGHLY VALUED HEALTHCARE SYSTEM</p>
+                <p>C.A.H.T.A. <span style="color: red;">D</span> APPROACHES ITS CLIENTS WITH SPECIAL ATTENTION AND GREAT RESPECT - THE COMPANY HAS HIGHLY VALUED HEALTHCARE SYSTEM</p>
               </figcaption>
             </figure>
           </div>
@@ -283,43 +310,27 @@
       </div>
     </section>
 
-    <!-- <section class="partners">
-      <div class="container">
-          <div class="partners__title">
-              <h3 class="Service__title text-center">Partners & Business Associates</h3>
-          </div>
-          <div style="display: flex; gap: 30px; align-items: center; justify-content: center; margin-top: 50px;" class="partners_first-string text-center">
-              <div class="partners__logo">
-                  <img class="partners-img" src="./images/partners/AMA Global Assistance 1.png" alt="">
-              </div>
-              <div class="partners__logo">
-                <img class="partners-img" src="./images/partners/HJ-removebg-preview (1) 1.png" alt="">
-              </div>
-              <div class="partners__logo">
-                <img class="partners-img" src="./images/partners/Outlook-signature_ 1.png" alt="">
-              </div>
-              <div class="partners__logo">
-                <img class="partners-img" src="./images/partners/TechnPlace logo 1.png" alt="">
-              </div>
-          </div>
-          <div style="display: flex; gap: 30px; align-items: center; justify-content: center; margin-top: 50px;" class="partners_first-string text-center">
-              <div class="partners__logo">
-                <img class="partners-img" src="./images/partners/photo_2022-08-23_14-50-05-removebg-preview 1.png" alt="">
-              </div>
-              <div class="partners__logo">
-                <img class="partners-img" src="./images/partners/rtyry 1.png" alt="">
-              </div>
-              <div class="partners__logo">
-                <img class="partners-img" src="./images/partners/photo_2022-08-25_13-29-10 1.png" alt="">
-                
-              </div>
-              <div class="partners__logo">
-                <img class="partners-img" src="./images/partners/VV 1.png" alt="">
-                
-              </div>
-          </div>
+    <div style="text-align: center ; margin-bottom: 80px;">
+      <div class="partners__title">
+        <h3 class="Partner__title text-center">Countries in our area of expertise</h3>
+    </div>
+      <div style="text-align:center; display: flex; justify-content: center; gap: 50px;">
+        <div>
+          <iframe  frameborder="no" scrolling="no" width="280" height="150" src="https://yandex.ru/time/widget/?geoid=asia%2Fbishkek&lang=en&layout=horiz&type=analog&face=serif"></iframe>
+        </div>
+        <div>
+          <iframe  frameborder="no" scrolling="no" width="280" height="150" src="https://yandex.ru/time/widget/?geoid=asia%2Falmaty&lang=en&layout=horiz&type=analog&face=serif"></iframe>
+        </div>
+        <div>
+          <iframe  frameborder="no" scrolling="no" width="280" height="150" src="https://yandex.ru/time/widget/?geoid=asia%2Ftashkent&lang=en&layout=horiz&type=analog&face=serif"></iframe>
+        </div>
+        <div>
+          <iframe  frameborder="no" scrolling="no" width="280" height="150" src="https://yandex.ru/time/widget/?geoid=asia%2Fdushanbe&lang=en&layout=horiz&type=analog&face=serif"></iframe>
+        </div>
       </div>
-  </section> -->
+     </div>
+
+
  
 
   <footer class="footer">
@@ -354,19 +365,24 @@
           <h3 class="footer__text">С.A.H.T.A.<span style="color: red">D</span> </h3>
           <ul>
             <li class="footer__item">
-              <a class="footer__text" href="">Baitik baatyr 126A,
+              <img class="footer__icons" src="./images/ICONS FOR LEVI/location.svg" alt=""> 
+              <a class="footer__text" href="#">Baitik baatyr 126A,
                 Bishkek Kyrgyzstan</a>
             </li>
             <li class="footer__item">
+              <img class="footer__icons" src="./images/ICONS FOR LEVI/Email.svg" alt=""> 
               <a class="footer__text" href="">ops@cahtadispatch.com</a>
             </li>
             <li class="footer__item">
+              <img class="footer__icons" src="./images/ICONS FOR LEVI/Email.svg" alt=""> 
               <a class="footer__text" href="">accounting@cahtadispatch.com</a>
             </li>
             <li class="footer__item">
+              <img class="footer__icons" src="./images/ICONS FOR LEVI/" alt=""> 
               <a class="footer__text" href="">+996 222 911 910</a>
             </li>
             <li class="footer__item">
+              <img class="footer__icons" src="./images/ICONS FOR LEVI/whatsapp.png" alt=""> 
               <a class="footer__text" href="">+996 222 911 910</a>
             </li>
             <section class="partners">

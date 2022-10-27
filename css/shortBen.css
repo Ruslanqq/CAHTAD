@@ -25,6 +25,8 @@
     text-align: center;
 }
 
+
+
 .right-wrapper{
     display: flex;
     justify-content: center;
@@ -45,3 +47,5 @@
     font-weight: bold;
     font-size: 14px;
 }
+
+

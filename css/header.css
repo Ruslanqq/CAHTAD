@@ -78,13 +78,13 @@ nav ul li ul li a {
 }
 @media only screen and (max-width: 768px) {
     .logo-right-text{
-        display: none;
+       display: none;
     }
     .legend{
-        display: none;
+       top: 0;
     }
     .slider-left-text{
-        display: none;
+margin-bottom: 150px;
     }
     .nav-mobile {
         display: block;
@@ -109,6 +109,18 @@ nav ul li ul li a {
     .nav-dropdown {
         position: static;
    }
+}
+@media only screen and (max-width: 768px) {
+    .logo-right-text{
+       display: none;
+    }
+    .legend{
+       display: none;
+    }
+    .slider-left-text{
+    display: none;
+    }
+    
 }
 @media screen and (min-width: 799px) {
     .nav-list {

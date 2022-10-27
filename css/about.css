@@ -53,7 +53,10 @@
     margin-bottom: 80px;
 }
 .About__subtitle{
-    
+    color: red;
+    width: 60%;
+    border-bottom-width: 4px ;
+    margin-bottom: 10px;
   }
 .about__text {
     font-weight: bold;
@@ -100,9 +103,7 @@
     max-width: 80%;
 }
 
-.About__subtitle {
-    margin-bottom: 25px;
-}
+
 
 @media (max-width: 1366px) {
     .about_company-content {

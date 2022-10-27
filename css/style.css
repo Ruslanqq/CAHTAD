@@ -13,6 +13,7 @@
 @import './technicalAssistance.css';
 @import './lifestyle.css';
 @import './evacuation.css';
+@import './security.css';
 
 
 * {
@@ -35,7 +36,7 @@ li{
 
 .container{
   margin: 0 auto !important;
-  max-width: 1200px !important;
+  max-width: 1366px !important;
   
 }
 
@@ -43,6 +44,19 @@ li{
   color: red;
 }
 
+.about_margintop{
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 39px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 30%;
+  border-bottom-width: 4px ;
+  /* color: #1D2A4D; */
+  color: red;
+}
 
 .legend{
   border:500px solid transparent;

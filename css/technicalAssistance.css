@@ -1,0 +1,14 @@
+.Technical__assistance-string{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.Technical__assistance-left{
+    max-width: 70%;
+    max-height: 500px ;
+}
+
+.Technical__assistance-right{
+    max-width: 50%;
+}

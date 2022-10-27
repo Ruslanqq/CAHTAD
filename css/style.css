@@ -8,6 +8,11 @@
 @import './partners.css';
 @import './footer.css';
 @import './shortBen.css';
+@import './medicalAssistance.css';
+@import './medicalTourism.css';
+@import './technicalAssistance.css';
+@import './lifestyle.css';
+@import './evacuation.css';
 
 
 * {
@@ -24,9 +29,14 @@ a{
   text-decoration: none;
 }
 
+li{
+  
+}
+
 .container{
-  max-width: 1366px;
-  margin: 0 auto;
+  margin: 0 auto !important;
+  max-width: 1200px !important;
+  
 }
 
 .content h1{
@@ -68,15 +78,10 @@ padding-bottom: 30px;
   background: gray;
 }
 
-.about__title{
-  color: #1D2A4D;
+.uppercase{
+  text-transform: uppercase;
 }
 
-.About__subtitle{
-  color: red;
-  width: 50%;
-  border-bottom-width: 4px ;
-}
 p{
   color: #1D2A4D;
 }
@@ -89,4 +94,9 @@ p{
   line-height: 39px;
   color: #1D2A4D;
 	font-weight: bold;
+}
+
+.nav__link:hover{
+  font-weight: bold;
+  transition: 0.3s;
 }

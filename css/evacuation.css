@@ -60,3 +60,39 @@
 .list-wrapper{
     margin-top: 30px;
 }
+
+@media (max-width: 768px){
+    .medical__evacuation-first, .medical__evacuation-second{
+        flex-direction: column;
+       justify-content: center;
+       margin: 0 auto;
+       width: 70%;
+    }
+    .medical__evacuation-second{
+        flex-direction: column-reverse;
+    }
+
+    .medical__evacuation-width{
+        display: none;
+    }
+
+    .helicopter__wrapper{
+        max-width: 500px;
+    }
+
+}
+
+
+@media (max-width: 425px){
+  
+}
+
+@media (max-width: 375px){
+
+
+}
+
+@media (max-width: 325px){
+ 
+
+}

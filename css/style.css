@@ -114,3 +114,29 @@ p{
   font-weight: bold;
   transition: 0.3s;
 }
+
+.title_bottom{
+  margin-bottom: 15px;
+  width: 30%;
+  border-bottom-width: 4px;
+}
+
+/* @media (max-width: 768px){
+
+
+}
+
+
+@media (max-width: 425px){
+  
+}
+
+@media (max-width: 375px){
+
+
+}
+
+@media (max-width: 325px){
+ 
+
+} */

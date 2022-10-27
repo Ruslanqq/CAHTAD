@@ -136,10 +136,94 @@
   .slide-medical-ass:nth-child(5) {
     background: url("../images/medicalAssistance/5.jpg") no-repeat center center/cover;
   }
-
   .slide-medical-ass:last-child {
     background: url("../images/medicalAssistance/6.jpg") no-repeat center center/cover;
   }
+
+  .slide-tech:first-child {
+    background: url("../images/C.A.H.T.A.D_Hero/techncal/image_2022-10-08_11-42-56.png") no-repeat center center/cover;
+  }
+  .slide-tech:nth-child(2) {
+    background: url("../images/C.A.H.T.A.D_Hero/techncal/image_2022-10-08_11-43-08.png") no-repeat center center/cover;
+  }
+  .slide-tech:nth-child(3) {
+    background: url("../images/C.A.H.T.A.D_Hero/techncal/image_2022-10-08_11-43-17.png") no-repeat center center/cover;
+  }
+  .slide-tech:last-child {
+    background: url("../images/C.A.H.T.A.D_Hero/techncal/image_2022-10-08_11-43-31.png") no-repeat center center/cover;
+  }
+ 
+
+
+  .slide-evac:first-child {
+    background: url("../images/C.A.H.T.A.D_Hero/ambulance/ambulanceEvucation.jpg") no-repeat center center/cover;
+  }
+  .slide-evac:nth-child(2) {
+    background: url("../images/C.A.H.T.A.D_Hero/ambulance/2.jpg") no-repeat center center/cover;
+  }
+  .slide-evac:nth-child(3) {
+    background: url("../images/C.A.H.T.A.D_Hero/ambulance/3.jpg") no-repeat center center/cover;
+  }
+  .slide-evac:nth-child(4) {
+    background: url("../images/air-ambulance-1.png") no-repeat center center/cover;
+  }
+  .slide-evac:last-child {
+    background: url("../images/C.A.H.T.A.D_Hero/ambulance/5.jpg") no-repeat center center/cover;
+  }
+
+
+  .slide-lifestyle:first-child {
+    background: url("../images/C.A.H.T.A.D_Hero/livestyle/1.png") no-repeat center center/cover;
+  }
+  .slide-lifestyle:nth-child(2) {
+    background: url("../images/C.A.H.T.A.D_Hero/livestyle/2.png") no-repeat center center/cover;
+  }
+  .slide-lifestyle:nth-child(3) {
+    background: url("../images/C.A.H.T.A.D_Hero/livestyle/3.png") no-repeat center center/cover;
+  }
+  .slide-lifestyle:nth-child(4) {
+    background: url("../images/C.A.H.T.A.D_Hero/livestyle/4.png") no-repeat center center/cover;
+  }
+  .slide-lifestyle:last-child {
+    background: url("../images/vacay.jpeg") no-repeat center center/cover;
+  }
+
+  .slide-tourism:first-child {
+    background: url("../images/Medical__tourism/hospital.jpg") no-repeat center center/cover;
+  }
+  .slide-tourism:nth-child(2) {
+    background: url("../images/C.A.H.T.A.D_Hero/medicaltourism/inpage.jpg") no-repeat center center/cover;
+  }
+  .slide-tourism:nth-child(3) {
+    background: url("../images/C.A.H.T.A.D_Hero/medicaltourism/image_2022-10-07_19-12-26.png") no-repeat center center/cover;
+  }
+  .slide-tourism:nth-child(4) {
+    background: url("../images/doctors\ resepcion.jpg") no-repeat center center/cover;
+  }
+  .slide-tourism:last-child {
+    background: url("../images/Medical__tourism/depositphotos_148496507-stock-photo-hospital-reception-with-patients-and.jpg") no-repeat center center/cover;
+  }
+
+  .slide-security:first-child {
+    background: url("../images/C.A.H.T.A.D_Hero/drorsecurity/1.png") no-repeat center center/cover;
+  }
+  .slide-security:nth-child(2) {
+    background: url("../images/C.A.H.T.A.D_Hero/drorsecurity/2.png") no-repeat center center/cover;
+  }
+  .slide-security:nth-child(3) {
+    background: url("../images/C.A.H.T.A.D_Hero/drorsecurity/3.png") no-repeat center center/cover;
+  }
+  .slide-security:nth-child(4) {
+    background: url("../images/sec3.png") no-repeat center center/cover;
+    background-position:bottom 10px;;
+  }
+  .slide-security:last-child {
+    background: url("../images/C.A.H.T.A.D_Hero/drorsecurity/image_2022-10-08_11-52-01.png") no-repeat center center/cover;
+  }
+
+  /* .slide-tech:last-child {
+    background: url("../images/medicalAssistance/6.jpg") no-repeat center center/cover;
+  } */
   /* ================================================= 
                       responsive 
   ==================================================*/

@@ -112,4 +112,12 @@
  .note .link:hover {
 	 text-decoration: underline;
 }
+
+
+@media (max-width: 425px){
+	.get-in-touch{
+		margin-bottom: -100px !important;
+	}
+ }
+
  

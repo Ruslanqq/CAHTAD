@@ -10,10 +10,6 @@
     justify-content: space-between;
 }
 
-.company-profile-info{
-
-}
-
 .company__profile-content {
    
     text-align: center;
@@ -120,7 +116,37 @@
     }
 }
 
+@media (max-width: 768px) {
+    .company-profile-info{
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    .about_img-wrapper1{
+        flex-direction: column;
+    }
+
+    .lifestyle__content{
+        flex-direction: column;
+        margin-left: 25%;
+    }
+
+    .lifestyle__right{
+        margin-top: 50px;
+        max-width: 60%;
+    }
+    .partners{
+        display: none;
+    }
+    .about_company-img {
+        max-width: 400px;
+        max-height: 200px;
+    }
+}
+
 @media (max-width: 425px) {
+    .company-profile-info{
+        flex-direction: column;
+    }
     .about_company-img {
         max-width: 400px;
         max-height: 200px;

@@ -83,6 +83,9 @@
     .helicopter__wrapper{
         max-width: 500px;
     }
+    .helicopter__wrapper1{
+        max-width: 100% !important;
+    }
 
     .left-wrapper{
         flex-wrap: wrap;

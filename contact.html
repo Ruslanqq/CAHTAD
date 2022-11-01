@@ -7,7 +7,7 @@
     <link href="./images/Footer/logoWhite.png" rel="icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>C.A.H.T.A.D</title>
-    
+    <link href="contact-form.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="./css/contact.css">
   </head>
@@ -62,31 +62,52 @@
 
     <img src="./images/contact.jpg" alt="">
 
-    <section style="" class="get-in-touch">
-        <h4 style="margin-bottom: 50px" class="about__title about__title1 mob-postition">Contact Information</h4>
-        <form class="contact-form row">
-           <div class="form-field col x-50">
-              <input id="name" class="input-text js-input" type="text" required>
-              <label class="label" for="name">Name</label>
-           </div>
-           <div class="form-field col x-50">
-              <input id="email" class="input-text js-input" type="email" required>
-              <label class="label" for="email">E-mail</label>
-           </div>
-           <div class="form-field col x-100">
-            <input id="message" class="input-text js-input" type="text" required>
-            <label class="label" for="message">Company Name</label>
-         </div>
-           <div class="form-field col x-100">
-              <input id="message" class="input-text js-input" type="text" required>
-              <label class="label" for="message">Message</label>
-           </div>
-           <div class="form-field col x-100 align-center">
-              <input class="submit-btn" type="submit" value="Submit">
-           </div>
-        </form>
-     </section>
+    <div class="fcf-body">
 
+      <div id="fcf-form">
+      <h3 class="about__title about__title1 mob-postition">Contact Information</h3>
+  
+      <div class="container container2">
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+          
+          <div class="fcf-form-group">
+              <label for="Name" class="fcf-label">Your name</label>
+              <div class="fcf-input-group">
+                  <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+              </div>
+          </div>
+  
+          <div class="fcf-form-group">
+              <label for="Email" class="fcf-label">Your email address</label>
+              <div class="fcf-input-group">
+                  <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+              </div>
+          </div>
+
+          <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your company name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="text" name="text" class="fcf-form-control" required>
+            </div>
+        </div>
+  
+          <div class="fcf-form-group">
+              <label for="Message" class="fcf-label">Your message</label>
+              <div class="fcf-input-group">
+                  <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+              </div>
+          </div>
+  
+          <div class="fcf-form-group">
+              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+          </div>
+  
+  
+      </form>
+      </div>
+      </div>
+  
+  </div>
     
  
 

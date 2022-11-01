@@ -14,7 +14,7 @@
 @import './lifestyle.css';
 @import './evacuation.css';
 @import './security.css';
-
+@import './contact-form.css';
 
 * {
   padding: 0;
@@ -39,6 +39,7 @@ li{
   max-width: 1366px !important;
   
 }
+
 
 .content h1{
   color: red;
@@ -121,8 +122,24 @@ p{
   border-bottom-width: 4px;
 }
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
+  .medical__tourism-content{
+    flex-direction: column;
+  }
+  .medical__tourism-text{
+    width: 100%;
+  }
 
+  .medical__tourism-p{
+    padding-right: 30px;
+    padding-left: 30px;
+   width: 100%;
+   text-align: justify;
+  }
+
+  .medical__tourism-list{
+    padding-left: 30px;
+  }
 
 }
 
@@ -139,5 +156,5 @@ p{
 @media (max-width: 325px){
  
 
-} */
+}
 

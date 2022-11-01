@@ -30,12 +30,22 @@
     .Medical__assistance-string{
         flex-direction: column;
     }
+    
+    .Medical__assistance-string1{
+        margin-right: 62px;
+    }
     .medical-ass-column{
         margin: 0 auto;
         flex-direction: column;
     }
     .mob-none-pct{
         display: none;
+    }
+    .mobile-column{
+        margin-left: 120px;
+    }
+    .mobile-column-medical{
+        margin-left: 60px;
     }
 }
 

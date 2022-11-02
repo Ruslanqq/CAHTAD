@@ -45,6 +45,12 @@ li{
   color: red;
 }
 
+.rotate-phone{
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+
 .about_margintop{
   text-align: center;
   font-style: normal;
@@ -145,7 +151,17 @@ p{
 
 
 @media (max-width: 425px){
-  
+
+  .footer__content{
+  }
+  .rotate-phone{
+    margin: 0 auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+
+  }
 }
 
 @media (max-width: 375px){

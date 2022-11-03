@@ -42,10 +42,16 @@
         display: none;
     }
     .mobile-column{
-        margin-left: 120px;
+        margin-left: 50px;
     }
     .mobile-column-medical{
-        margin-left: 60px;
+        margin-left: 30px;
+    }
+    .mobile_left-list{
+        margin-left: -110px;
+    }
+    .medical__tourism-image{
+        margin-left: 25%;
     }
 }
 
@@ -56,4 +62,10 @@
    .partners_first-string{
     display: none;
    }
+   .mobile_left-list{
+    margin-left: 40px;
+}
+.medical__tourism-image{
+    margin: 0 auto;
+}
 }

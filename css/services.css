@@ -195,6 +195,10 @@ figure.effect-text-four:hover::after
 		width: 360px;
 	}
 
+	.figcaption_text{
+		display: none;
+	}
+
 }
 
 @media (max-width: 375px){

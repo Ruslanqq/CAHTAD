@@ -7,7 +7,7 @@
     <link href="./images/Footer/logoWhite.png" rel="icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>C.A.H.T.A.D</title>
-    
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -267,8 +267,48 @@
           </div>
           <img class="rotate-phone" src="./images/rotating-mobile-phone-from-vertical-to-horizontal-position.png" alt="">
         </div>
+        <div class="b-popup" id="popup1">
+          <div class="b-popup-content">
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+              <div class="fcf-form-group">
+                  <div class="fcf-input-group">
+                      <input type="text" id="Name" name="Name" class="fcf-form-control" placeholder="Your name" required>
+                  </div>
+              </div>
+      
+              <div  style="color: white;" class="fcf-form-group">
+                  <!-- <label for="Email" class="fcf-label"></label> -->
+                  <div class="fcf-input-group">
+                      <input type="email" id="Email" name="Email" class="fcf-form-control" placeholder="Your email address" required>
+                  </div>
+              </div>
+    
+              <div class="fcf-form-group">
+                <div class="fcf-input-group">
+                    <input type="text" id="text" name="text" class="fcf-form-control" placeholder="Your company name" required>
+                </div>
+            </div>
+      
+              <div class="fcf-form-group">
+              
+                  <div class="fcf-input-group">
+                      <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" placeholder="Your message" required></textarea>
+                  </div>
+              </div>
+      
+              <div class="fcf-form-group">
+                  <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+              </div>
+      
+      
+          </form>
+          <a style="color: white;" href="javascript:PopUpHide()">Hide form</a>
+          </div>
+      </div>
       </footer>
-
+      <div class="akeconsa-udaneles">
+        <a href="#" title="Поднять страницы на сайтах вверх"><span class="fas fa-angle-up"></span></a>
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/navbar.js"></script>

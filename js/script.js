@@ -1,3 +1,13 @@
+$(document).ready(function(){
+  PopUpHide();
+});
+function PopUpShow(){
+  $("#popup1").show();
+}
+function PopUpHide(){
+  $("#popup1").hide();
+}
+
 // Global variable
 const slides = document.querySelectorAll(".slide");
 const nextBtn = document.querySelector(".next-btn");

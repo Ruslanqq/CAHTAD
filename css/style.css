@@ -26,6 +26,51 @@ body {
   overflow-x: hidden;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+.akeconsa-udaneles{
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9;
+}
+.akeconsa-udaneles a {
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  background: red;
+  display: block;
+  border-radius: 2px;
+}
+.akeconsa-udaneles a span {
+  color: #f7f0f0;
+  font-size: 30px;
+  line-height: 42px;
+  cursor: pointer;
+}
+
+.b-popup{
+  width:100%;
+  min-height:100%;
+  background-color: rgba(0,0,0,0.5);
+  overflow:hidden;
+  position:fixed;
+  top:0px;
+  z-index: 99999999;
+}
+.b-popup .b-popup-content{
+  margin:40px auto 0px auto;
+  width:700px;
+  height: 40px;
+  padding:10px;
+  background-color: #c5c5c5;
+  border-radius:5px;
+  box-shadow: 0px 0px 10px #000;
+  z-index: 999999999999;
+}
+
 a{
   text-decoration: none;
 }

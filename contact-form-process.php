@@ -2,7 +2,7 @@
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "you@yourdomain.com";
+    $email_to = "accounting@cahtadispatch.com";
     $email_subject = "New form submissions";
 
     function problem($error)
@@ -18,14 +18,17 @@ if (isset($_POST['Email'])) {
     if (
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
+        !isset($_POST['text']) ||
         !isset($_POST['Message'])
     ) {
         problem('We are sorry, but there appears to be a problem with the form you submitted.');
     }
-
+    Message
     $name = $_POST['Name']; // required
     $email = $_POST['Email']; // required
+    $text = $_POST['text']; // required
     $message = $_POST['Message']; // required
+  
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -58,6 +61,7 @@ if (isset($_POST['Email'])) {
 
     $email_message .= "Name: " . clean_string($name) . "\n";
     $email_message .= "Email: " . clean_string($email) . "\n";
+    $email_message .= "text: " . clean_string($email) . "\n";
     $email_message .= "Message: " . clean_string($message) . "\n";
 
     // create email headers
